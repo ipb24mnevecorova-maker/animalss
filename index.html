@@ -11,19 +11,76 @@
         }
         h2{
             text-align: center;
+            padding: 10px;
+            margin-top: auto;
         }
+        .main{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .mainbody{
+            display: flex;
+            justify-content: center;
+            background-color: #E2B59A;
+        }
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin: 20px;
+        }
+
+        .container {
+        padding: 2px 16px;
+        }
+        .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin: 20px;
+        }
+
+        .container1 {
+        padding: 2px 16px;
+        }
+
         .header{
             height: 100px;
             position: sticky;
             top: 0;
             background-color: #B77466;
+            width: 100%;
+            margin-bottom: 20px;
+            
+            
+            
+
+
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h2>Wild Cats</h2>
+    <div class="main">
+        <div class="header">
+            <h2>Wild Cats</h2>
+        </div>
+        <div class="mainbody">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Mo8id7bvki0pqKaHOAdJf-OeZcuawtoGAQ&s" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>African wild cat</b></h4>
+                    
+                </div>
+            </div>
+            <div class="card1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Felis_silvestris_silvestris.jpg/250px-Felis_silvestris_silvestris.jpg" alt="Avatar" style="width:100%">
+                <div class="container1">
+                    <h4><b>European wild cat</b></h4>
+                    
+                </div>
+            </div>
+
+        </div>
     </div>
+    
     
 </body>
 </html>
